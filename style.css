@@ -1,0 +1,406 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #db9090;
+  }
+  
+  header {
+    background-color: #e66b92;
+    padding: 20px;
+    text-align: center;
+    color: rgb(237, 225, 225);
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  form {
+    background-color: #e9d8e6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, select {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: rgb(253, 248, 248);
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #home {
+    
+      background-image: url('mentorimg1.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    
+    }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d4dbd1;
+    margin: 0;
+    padding: 0;
+}
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+  background : #8dca85;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  flex: 1 1 calc(33.333% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #35424a;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .team-member {
+      flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-member {
+      flex: 1 1 100%;
+  }
+}
+
+
+
+main {
+  padding: 20px;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.course {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background: #f9f9f9;
+  
+  
+}
+
+.course h2 {
+ 
+  margin: auto;
+}
+.course hover{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Blue */
+    transition: transform 0.3s;
+}
+
+.course:hover {
+    transform: scale(1.1); /* Scale up to 110% */
+}
+#about{
+  background: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.mission {
+  background-color: #6da9a9;
+  border-color: #35424a;
+}
+.team{
+  background-color: #6da9a9;
+}
+.values{
+  background-color: #6da9a9;
+}
+#heading{
+  background-color: #98a5ab;
+}
+.course-list{
+  background: url(https://img.freepik.com/premium-photo/grainy-gradient-background-red-white-blue-colors-with-soft-faded-watercolor-border-texture_927344-24167.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%100%;
+}  
+.course-list  h2{
+  font-weight: bold;
+ color: #5d68e2;
+}    
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.hidden {
+  display: none;
+}
+.Appt{
+ background: url(https://cdn141.picsart.com/332451108036201.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+} 
+#booking-form{
+  background: url(https://cdn141.picsart.com/332451108036201.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Peta', sans-serif;
+    box-sizing: border-box;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #1b1717;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container2 .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container2 .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container2 .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #cd8a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container2 .contactInfo .box .text h3{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(255, 0, 8);
+    /* flex-direction: column; */
+    font-weight: 500;
+}
+.container2 .contactInfo .box .text p{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(31, 29, 29);
+    /* flex-direction: column; */
+    font-weight: 300;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #f4efef;
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #ff0000;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #161414;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+} 
+
+
+
+
+
+
+  

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindful Mentors - Book an Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="heading">
+    <h1>Mindful Mentors</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Courses">Courses</a></li>
+        <li><a href="#appointment">Book Appointment</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Mindful Mentors</h2>
+    <p>Our experienced counselors are here to help you through tough times. Book a session today to connect with someone
+      who understands you.
+    </p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+      <!-- <img src="mentorimg1 (1).jpg" alt=""  height=100% > -->
+      
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Our Counselors</h2>
+    <p>Our team consists of certified mental health professionals and life coaches dedicated to supporting your
+      emotional well-being.</p>
+    <main>
+      <section class="mission">
+        <h2>Our Mission</h2>
+        <p>To provide the best services and products that enhance the lives of our customers.</p>
+      </section>
+
+      <section class="team">
+        <h2>Meet the Team</h2>
+        <div class="team-member">
+          <img src="team-member1.jpg" alt="Team Member 1">
+          <h3>Tanishq Jain</h3>
+          <p>Founder & CEO</p>
+        </div>
+        <div class="team-member">
+          <img src="team-member2.jpg" alt="Team Member 2">
+          <h3>Shreyanshu</h3>
+          <p>Chief Operating Officer</p>
+        </div>
+        <div class="team-member">
+          <img src="team-member3.jpg" alt="Team Member 3">
+          <h3>Urmit Sharma</h3>
+          <p>Head of Marketing</p>
+        </div>
+      </section>
+
+      <section class="values">
+        <h2>Our Values</h2>
+        <ul>
+          <li>Integrity</li>
+          <li>Innovation</li>
+          <li>Customer Focus</li>
+          <li>Excellence</li>
+        </ul>
+      </section>
+    </main>
+  </section>
+  <main>
+    <section class="course-list">
+      <h2>Courses</h2>
+      <div id="course1">
+        <article class="course">
+          <h2>Course Title 1</h2>
+          <p>Instructor: John Doe</p>
+          <p>Duration: 4 weeks</p>
+          <p>Description: Social Psychology.</p </article>
+      </div>
+
+      <
+      article class="course">
+        <h2>Course Title 2</h2>
+        <p>Instructor: Jane Smith</p>
+        <p>Duration: 6 weeks</p>
+        <p>Description: Yoga And Therapy.</p>
+      </article>
+
+      <article class="course">
+        <h2>Course Title 3</h2>
+        <p>Instructor: Emily Johnson</p>
+        <p>Duration: 8 weeks</p>
+        <p>Description: Cognitive Psychology</p>
+      </article>
+    </section>
+  </main>
+  <section>
+  <div class="Appt">
+    <h1>Book a Mentorship Session</h1>
+    <form id="booking-form">
+      <label for="mentor">Select Mentor:</label>
+      <select id="mentor" required>
+        <option value="">--Select a Mentor--</option>
+        <option value="mentor1">Mentor 1</option>
+        <option value="mentor2">Mentor 2</option>
+        <option value="mentor3">Mentor 3</option>
+      </select>
+
+      <label for="date">Select Date:</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Select Time:</label>
+      <input type="time" id="time" required>
+
+      <button type="submit">Book Appointment</button>
+
+    </form>
+
+    <div id="confirmation" class="hidden">
+      <h2>Appointment Confirmed!</h2>
+      <p id="appointment-details"></p>
+    </div>
+  </div>
+  </form>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Contact Us Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="1contactform.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nihil odit adipisci illo inventore eum, corrupti commodi delectus.</p>
+        </div>
+        <div class="container2">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>1234 Pachora Road,<br>Pune,India,<br>14568</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>12345678</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>abc@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span>Eamil</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="" id="" required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <p>Mindful mentor &copy; 2024 <br></p>
+    </footer>
+</body>
+</html>
